@@ -3,14 +3,9 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import HomeContainer from './containers/HomeContainer';
 import CustomersContainer from './containers/CustomersContainer';
+import CustomerContainer from './containers/CustomerContainer';
 
 class App extends Component {
-
-  renderHome = ()=> <HomeContainer />
-
-  renderCustomerContainer = () => <h1>Customer Container</h1>;
-
-  renderCustomerListContainer = () => <CustomersContainer />;
 
   renderCustomerNewContainer = () => <h1>Customer New Container</h1>;
  
@@ -18,11 +13,11 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <Route exact path="/" component={this.renderHome} />
-          <Route exact path="/customers" component={this.renderCustomerListContainer} />
+          <Route exact path="/" component={HomeContainer} />
+          <Route exact path="/customers" component={CustomersContainer} />
           <Switch>
             <Route path="/customers/new" component={this.renderCustomerNewContainer} />
-            <Route path="/customers/:dni" component={this.renderCustomerContainer}/>
+            <Route path="/customers/:dni" component={CustomerContainer} />
           </Switch>
         </div>
       </Router>
