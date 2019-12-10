@@ -1,0 +1,19 @@
+{
+  "customers": [
+    {
+      "dni": "270",
+      "name": "Juan Perez",
+      "age": 37
+    },
+    {
+      "dni": "370",
+      "name": "Carlos Bahia",
+      "age": 35
+    },
+    {
+      "dni": "470",
+      "name": "Luis Martinez",
+      "age": 32
+    }
+  ]
+}
