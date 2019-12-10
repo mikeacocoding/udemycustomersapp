@@ -7,7 +7,37 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app-frame {
+  margin: 5%;
+  padding: 30px;
+  width: calc(80vw);
+}
+
+.customers-actions {
+  padding:10px;
+  margin:10px;
+}
+
+.customers-actions button {
+  background: #3F51B5;
+  min-width: 199px;
+  color: white;
+  height: 30px;
+  margin: 5px;
+  border: 0px;
+  border-radius: 4px;
+  cursor:pointer;
+}
+
+.customers-list-item .field{
+  width:160px;
+  margin:1px;
+  padding:4px;
+  display:inline-block;
+  background:#2196f3;
+}
+
+.customers-list-item .field a{
+  color:white;
+  text-decoration:none;
 }
