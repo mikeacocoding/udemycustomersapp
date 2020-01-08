@@ -2,9 +2,9 @@
   "customers": [
     {
       "id": "270",
-      "dni": "270",
-      "name": "Juan Perez",
-      "age": 37
+      "dni": "2700",
+      "name": "Juan Perez 2",
+      "age": 38
     },
     {
       "id": "370",
@@ -17,6 +17,30 @@
       "dni": "470",
       "name": "Luis Martinez",
       "age": 32
+    },
+    {
+      "name": "NUEVO prueba",
+      "dni": "12323214554",
+      "age": 3,
+      "id": "nRgx1DP"
+    },
+    {
+      "name": "NUEVO prueba2",
+      "dni": "27001d",
+      "age": 8,
+      "id": "gttnZ9R"
+    },
+    {
+      "name": "NUEVO prueba3",
+      "dni": "1d2d",
+      "age": 3,
+      "id": "LFmqpN-"
+    },
+    {
+      "name": "Juan Perez 3",
+      "dni": "dwma11",
+      "age": 5,
+      "id": "Iyevflu"
     }
   ]
 }

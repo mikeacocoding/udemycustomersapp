@@ -29,6 +29,11 @@ body {
   cursor:pointer;
 }
 
+.customers-actions button:disabled {
+  background: #9e9e9eb5;
+  cursor:auto;
+}
+
 .customers-list-item .field{
   width:160px;
   margin:1px;
